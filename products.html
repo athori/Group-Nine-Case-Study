@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+			<!--
+				Springfield Audio Company
+				Author:
+				Date last worked on:
+				File Name;
+			-->
+			<!-- Required meta tags -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<title>Springfield Audio Company Inc.</title>
+
+
+			<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+			<link rel="stylesheet" href="styles.css">
+		</head>
+	
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>SPRINGFIELD AUDIO COMPANY</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="jumbotron">
+				  <div class="text-center">
+					<h1>Our Products</h1>
+					<p>Best Audio Products on the Earth</p>
+				  </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="topnav" id="myTopnav">
+						<div class="dropdown">
+							<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								Products
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								<li id="allProductsBtn"><a href="#">All Products</a></li>
+								<li id="audioCassettesBtn"><a href="#">Audio Cassettes</a></li>
+								<li id="digitalMediaBtn"><a href="#">Digital Media packaging</a></li>
+								<li role="separator" class="divider"></li>
+								<li id="contactUsBtn"><a href="#">Contact Us</a></li>
+							</ul>
+							<a href="#home">Home</a>
+							<a href="#contact">Contact</a>
+							<a href="#about">About</a>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading">DVD case</div>
+						<div class="panel-body"><img src="images/Case.png" class="img-responsive" style="width:100%" alt="DVD"></div>
+						<div class="panel-footer"><input type="checkbox" id="item1" value="1.5" /><label for="item1">Price $1.50</label></div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-danger">
+						<div class="panel-heading">Cassette</div>
+						<div class="panel-body"><img src="images/Cassette.png" class="img-responsive" style="width:100%" alt="Cassette"></div>
+						<div class="panel-footer"><input type="checkbox" id="item2" value="2.5" /><label for="item2">Price $2.50</label></div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-success">
+						<div class="panel-heading">Reel</div>
+						<div class="panel-body"><img src="images/Reel.png" class="img-responsive" style="width:100%" alt="Reel"></div>
+						<div class="panel-footer"><input type="checkbox" id="item3" value="2.5" /><label for="item3">Price $2.50</label></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading">Duplication Kit</div>
+						<div class="panel-body"><img src="images/DuplicationKit.png" class="img-responsive" style="width:100%" alt="Duplication Kit"></div>
+						<div class="panel-footer"><input type="checkbox" id="item4" value="40" /><label for="item4">Price $40.00</label></div>
+				  	</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading">Music Package</div>
+						<div class="panel-body"><img src="images/MusicPackage.png" class="img-responsive" style="width:100%" alt="Music Package"></div>
+						<div class="panel-footer"><input type="checkbox" id="item5" value="80" /><label for="item5">Price $80.00</label></div>
+				  	</div>
+				</div>
+				<div class="col-sm-4">
+				  	<div class="panel panel-primary">
+						<div class="panel-heading">DVD on Spindle</div>
+						<div class="panel-body"><img src="images/Spindle.png" class="img-responsive" style="width:100%" alt="DVD on Spindle"></div>
+						<div class="panel-footer"><input type="checkbox" id="item6" value="25" /><label for="item6">Price $25.00</label></div>
+				  	</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<input type="button" id="submit" value="Submit" class="btn btn-primary center-block"/>
+				</div>
+			</div>
+			<div class="row">
+				<footer class="container-fluid text-center">
+					<form class="form-inline">Get deals:
+						<input type="email" class="form-control"  size="50" placeholder="Enter email" name="email" required>
+						<button type="button" class="btn btn-danger" id="email">Sign Up</button>
+				  	</form>
+				  <p>SAC (C) 2017</p>
+				</footer>
+			</div>
+		</div><!--End main body container-->
+		
+		<!--Custom JS -->
+<script>
+// function calcTotal() {
+//   var itemTotal = 0;
+//   var item1 = document.getElementById('item1');
+//   var item2 = document.getElementById('item2');
+//   var item3 = document.getElementById('item3');
+//   var item4 = document.getElementById('item4');
+//   var item5 = document.getElementById('item5');
+//
+//   (item1.checked) ? (itemTotal += 1.5) : (itemTotal += 0);
+//   (item2.checked) ? (itemTotal += 2.5) : (itemTotal += 0);
+//   (item3.checked) ? (itemTotal += 2.5) : (itemTotal += 0);
+//   (item4.checked) ? (itemTotal += 40) : (itemTotal += 0);
+//   (item5.checked) ? (itemTotal += 80) : (itemTotal += 0);
+//   (item5.checked) ? (itemTotal += 25) : (itemTotal += 0);
+//
+//   var salesTaxRate = 0.07;
+//   itemTotal *= 100;
+//   var orderTotal = (itemTotal + (itemTotal * salesTaxRate))/ 100;
+//   alert("Your order total incl. tax is $" + orderTotal);
+// }
+//   document.getElementById("submit").addEventListener("click", calcTotal, false);
+//
+//   function submitInfo() {
+//     var email = document.getElementById("email");
+//       alert("Thank you!");
+//   }
+//     document.getElementById("email").addEventListener("click", submitInfo, false);
+//<div class = "row" dont need this
+//<script> or this
+    for (var i = 0; i <= 3 ; i++){
+      document.write('<img src=" '+ imgp_[i].png +'" >');
+    }
+
+
+
+  
+    for (var i = 4; i <= 7 ; i++){
+      document.write('<img src=" '+ imgp_[i].png +'" >');
+    }
+ 
+
+</script>		
+		
+		<!-- End Custom JS -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	</body>
+</html>
