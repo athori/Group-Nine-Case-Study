@@ -3,9 +3,9 @@
 		<head>
 			<!--
 				Springfield Audio Company
-				Author:
-				Date last worked on:
-				File Name;
+				Author: George Polivka
+				Date last worked on: 10/02/17
+				File Name: products.htlm
 			-->
 			<!-- Required meta tags -->
 			<meta charset="utf-8">
@@ -26,13 +26,43 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="jumbotron">
-				  <div class="text-center">
-					<h1>Our Products</h1>
-					<p>Best Audio Products on the Earth</p>
-				  </div>
+				<div class="col-sm-12">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img class="d-block w-100" src="images/HPCarousel_AudioGirl_Cassettes.png" alt="First slide" width="100%">
+						</div>
+						<div class="carousel-item">
+						  <img class="d-block w-100" src="images/HPCarousel_Church_DigiMedia.png" alt="Second slide" width="100%">
+						</div>
+						<div class="carousel-item">
+						  <img class="d-block w-100" src="images/HPCarousel_Engineers_Products.png" alt="Third slide" width="100%">
+						</div>
+					  </div>
+					  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
 				</div>
 			</div>
+			<!-- <div class="row"> -->
+				<!-- <div class="carusel"> -->
+				  <!-- <div class="text-center"> -->
+					<!-- <h1>Our Products</h1> -->
+					<!-- <p>Best Audio Products on the Earth</p> -->
+				  <!-- </div> -->
+				<!-- </div> -->
+			<!-- </div> -->
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="topnav" id="myTopnav">
@@ -48,9 +78,9 @@
 								<li role="separator" class="divider"></li>
 								<li id="contactUsBtn"><a href="#">Contact Us</a></li>
 							</ul>
-							<a href="#home">Home</a>
-							<a href="#contact">Contact</a>
-							<a href="#about">About</a>
+							<a href="index.html">Home</a>
+							<a href="contactus.html">Contact</a>
+							<a href="aboutus.html">About</a>
 						</div>
 					</div>
 				</div>	
@@ -107,9 +137,10 @@
 					<input type="button" id="submit" value="Submit" class="btn btn-primary center-block"/>
 				</div>
 			</div>
+				<div>Get deals:</div>
 			<div class="row">
 				<footer class="container-fluid text-center">
-					<form class="form-inline">Get deals:
+					<form class="form-inline">
 						<input type="email" class="form-control"  size="50" placeholder="Enter email" name="email" required>
 						<button type="button" class="btn btn-danger" id="email">Sign Up</button>
 				  	</form>

@@ -34,3 +34,7 @@ div.row h1 {
 div.carousel-inner {
 		padding: 18px;
 	}
+	
+.form-inline{
+	text-align: right;
+}
