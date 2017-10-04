@@ -34,3 +34,8 @@ div.row h1 {
 div.carousel-inner {
 		padding: 18px;
 	}
+
+div.panel-primary{
+    padding: 2px;
+    radius: 50%;
+}
