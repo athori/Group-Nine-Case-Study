@@ -25,17 +25,48 @@ body {
 div.container {
 	background-color: #1a5266;
 }
-div.row h1 {
+/*div.row h1 {
 	background-image: url("images/equalizer.jpg");
 	text-align: center;
 	color: #ffcc66;
 	padding: 20px 40px;
-}
+}*/
 div.carousel-inner {
 		padding: 18px;
 	}
 
-div.panel-primary{
-    padding: 2px;
-    radius: 50%;
+.myImage{
+	display: block;
+    margin: auto;
+}
+
+.row1{
+	text-align: center;
+	color: white;
+}
+
+.row2{
+	text-align: center;
+	color: white;
+}
+
+.row3{
+	color: white;
+	text-align: center;
+}
+
+p.form-control{
+	padding-left: 100px !important;
+}
+
+.row3 .form-control-plaintext{
+	background-color: #1a5266;
+	color: white;
+	display: inline-block;
+	margin: auto;
+	
+}
+.row3 .form-inline{
+	text-align: center !important;
+	margin:auto !important;
 }
