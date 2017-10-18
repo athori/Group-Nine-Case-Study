@@ -1,47 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
+
+div#allProductsBtn {
+	color: silver;
+}
+div.row {
+	margin: 0 auto;
+	padding: 16px 40px;
+}
+
+div.topnav {
+	color: #F8F8F8;
+	background-color: silver;
+	text-align: center;
+	font-size: 18px;
+	padding: 4px 10px;
+}
+body {
 	background-color: silver;
 }
-.container{
+div.container {
 	background-color: #1a5266;
 }
-
+div.row h1 {
+	background-image: url("images/equalizer.jpg");
+	text-align: center;
+	color: #ffcc66;
+	padding: 20px 40px;
+}
+div.carousel-inner {
+		padding: 18px;
+	}
+	
 .navbar{
-	background-color: silver !important;
+    background-color: silver;
 }
 a{
-	color: #337ab7 !important;
-}
-#myCarousel{
-	padding-top: 15px;
-}
-
-#pRow1 img{
-	padding-right: 15px;
-	padding-top: 15px;
-}
-#pRow2 img{
-	padding-right: 15px;
-	padding-top: 15px;
-}
-#shipping{
-
-}
-
-#mytext1{
-	padding-top: 15px;
-}
-#mytext1 p{
-	background-color: silver;
-	color: red;
-}
-
-#mytext2{
-	padding-top: 15px;
-}
-
-.textColor{
-	background-color: #4A6D74;
+    color: #337ab7;
 }
