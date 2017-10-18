@@ -9,7 +9,9 @@ div.row {
 	margin: 0 auto;
 	padding: 16px 40px;
 }
-
+div.topnav a {
+	  padding: 18px;
+}
 div.topnav {
 	color: #F8F8F8;
 	background-color: silver;
@@ -32,12 +34,3 @@ div.row h1 {
 div.carousel-inner {
 		padding: 18px;
 	}
-	
-.navbar{
-    background-color: silver;
-}
-a{
-    color: #337ab7;
-
-}
-
