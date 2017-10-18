@@ -9,6 +9,7 @@ var products = [
 	"images/product7.png",
 	"images/product8.png",
 ];
+/*
 function writeImageTags(){
 	var productRowOne = document.getElementById("pRow1");
 	for(var i = 0; i < 4; i++){
@@ -35,3 +36,4 @@ function setUpPage(){
 }
 
 window.addEventListener("load", setUpPage, false);
+*/
