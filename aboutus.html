@@ -14,9 +14,9 @@
     <title>About the National Audio Company</title>
 	      <!--
          About Us page
-         Filename: index.html
+         Filename: aboutus.html
          Author:   Chase Dickerson
-         Date:     9/10/2017
+         Date:     10/3/2017
          Home page
 			-->
 
@@ -44,39 +44,53 @@
 
   <body>
      <div class="container">
-		<h1>Springfield Audio Company, Inc.</h1>
-		<h3>About Us</h3>
-	    <nav>
-          <ul class="nav nav-justified">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="tours.html">About Us</a></li>
-            <li><a href="reservation.html">Our Products</a></li>
-            <li><a href="images.html">Our Services</a></li>
-          </ul>
-        </nav>
+		<div class="row">
+			<h1>Springfield Audio Company, Inc.</h1>
+			<h2>About Us</h2>		
+		</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="topnav" id="myTopnav">
+						<div class="dropdown">
+							<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Products
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1" x-placement="bottom-start" style="position: absolute; transform: translate3d(50px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+								<li id="allProductsBtn"><a href="products.html">All Products</a></li>
+								<li id="audioCassettesBtn"><a href="products.html">Audio Cassettes</a></li>
+								<li id="digitalMediaBtn"><a href="products.html">Digital Media packaging</a></li>
+								<li role="separator" class="divider"></li>
+								<li id="contactUsBtn"><a href="#">Contact Us</a></li>
+							</ul>
+							<a href="index.html">Home</a>
+							<a href="contactus.html">Contact</a>
+							<a href="aboutus.html">About</a>
+						</div>
+					</div>
+				</div>	
+			</div>
 		<h4>Springfield Audio Company is a manufacturer of audio cassette tapes and a distributor of media, equipment, and supplies for all
 		types of audio duplication needs. We also provide professional services for both small and large customers - from small record labels to national agencies. </h4>
 		<br />
 		<div class="row">
         <div class="col-lg-4">
-		  <img class="img-square" src="News.jpg" alt="TrainPicture" width="340" height="300">
+		  <img class="img-circle" src="images/News.jpg" alt="NewsPicture" width="340" height="300">
           <h2>SPRINGFIELD AUDIO COMPANY, INC. IN THE NEWS</h2>
-          <p>	National Audio Company is a manufacturer of audio cassette tapes and a distributor of media, equipment, and supplies for all
+          <p>National Audio Company is a manufacturer of audio cassette tapes and a distributor of media, equipment, and supplies for all
 		types of audio duplication needs. We also provide professional services for both small and large customers - from small record labels to national agencies. </p>
-
         </div>
         <div class="col-lg-4">
-		  <img class="img-square" src="ContactUs.jpg" alt="BirthdayPicture" width="340" height="300">
+		  <img class="img-circle" src="images/ContactUs.jpg" alt="Contacticture" width="340" height="300">
 		  <h2>CONTACT US</h2>
           <p>Get in touch with us for quotes and information. You will be referred to the correct department by our customer service people.
 				Please use the email form on the contact page so we can direct you to the proper person or department.</p>
-
+		  <p><a class="btn btn-primary" href="contactus.html" role="button">Contact Us!</a></p>
        </div>
         <div class="col-lg-4">
-		  <img class="img-square" src="History.jpg" alt="MapPicture" width="340" height="300">
+		  <img class="img-circle" src="images/History.jpg" alt="HistoryPicture" width="340" height="300">
           <h2>HISTORY OF SPRINGFIELD AUDIO COMPANY</h2>
-          <p>Springfield Audio Company has a strong history in the production of blank and recorded audio media. Get to know us. We think you'll like our style.</p>
-          
+          <p>Springfield Audio Company has a strong history in the production of blank and recorded audio media. Get to know us. We think you'll like our style.</p>          
         </div>
       </div>
 	 </div>

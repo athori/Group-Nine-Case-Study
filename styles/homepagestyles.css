@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1250px;
+    }
+}
+body{
+	background-color: silver;
+	
+}
+.container{
+	background-color: #1a5266;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+.navbar{
+	background-color: silver !important;
+}
+a{
+	color: #337ab7 !important;
+}
+#myCarousel{
+	padding-top: 15px;
+}
+
+.row2{
+	padding-top: 15px;
+}
+
+.row3{
+	padding-top: 15px;
+}
+
+#mytext1{
+	
+	background-color: silver;
+}
+#mytext1 p{
+	
+	color: red;
+}
+
+#mytext2{
+	
+	background-color: silver;
+}
+.row4{
+	background-color: #998568;
+	margin-top: 15px;
+	
+}
+.row4 p{
+	font-size: 12px;
+}
+.row4 h5{
+	font-size: 14px;
+}
+#footertext{
+	text-align: center;
+}
+
+.myFooter{
+	background-color: silver;
+}
+footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+}
