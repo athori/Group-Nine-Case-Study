@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-		<head>
-			<!--
-				Springfield Audio Company
-				Author:
-				Date last worked on:
-				File Name;
-			-->
-			<!-- Required meta tags -->
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-			<title>Springfield Audio Company Inc.</title>
+	<head>
+		<!--
+			Springfield Audio Company
+			Author: Jason Stass
+			Date last worked on:
+			File Name; index.html
+		-->
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Springfield Audio Company Inc.</title>
 
 
-			<!-- Bootstrap CSS -->
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-			<link rel="stylesheet" href="styles.css">
-			<script src="sac.js"></script>
-		</head>
-	
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/homepagestyles.css">
+		<script src="sac.js"></script>
+		<script src="js/mainpage.js"></script>
+	</head>
+
 	<body>
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h1>SPRINGFIELD AUDIO COMPANY</h1>
+    		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    			<a class="navbar-brand" href="#">SPRINGFIELD AUDIO COMPANY Inc.</a>
+    			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+				</button>
+				 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				 	<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				 		<li class="nav-item active">
+				 			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+					</ul>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="topnav" id="myTopnav">
-						<div class="dropdown">
-							<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-								Products
-								<span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								<li id="allProductsBtn"><a href="#">All Products</a></li>
-								<li id="audioCassettesBtn"><a href="#">Audio Cassettes</a></li>
-								<li id="digitalMediaBtn"><a href="#">Digital Media packaging</a></li>
-								<li role="separator" class="divider"></li>
-								<li id="contactUsBtn"><a href="#">Contact Us</a></li>
-							</ul>
-							<a href="#home">Home</a>
-							<a href="#contact">Contact</a>
-							<a href="#about">About</a>
-						</div>
-					</div>
-				</div>	
-			</div>
+			</nav>
 			<div class="row">
 				<div class="col-sm-12">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -77,39 +70,85 @@
 					  </a>
 					</div>
 				</div>
+			</div><!--End Carousel -->
+			
+			<div class="row row2" >
+				<div class="col-sm-8">
+					<img src="images/product1.png">
+				
+					<img src="images/product2.png">
+				
+				
+					<img src="images/product3.png">
+				
+					<img src="images/product4.png">
+				</div>
+				<div class="col-sm-4" id="mytext1">
+					<p>*We do ship internationally eventhoughour web site doesn't currently calculate the cost. Call 417-863-1925<br/>for info! Visit<a href="www.cassetro.com">www.cassetro.com</a>, our cassette duplication website, to have your audio project transferred to cassette tape.*</p>
+				</div>
+				
 			</div>
-			
-			<script>
-			// for (var i = 0; i<= products.length; i++)
-			//	 document.write ('<img src="'+products[i].image+'" >');
-			
-			/*for (var i = 0; i<= 1; i++){
-				document.write('<div class="row">'
-							  +'<img src=" ' + products[i].image + ' "> '
-							  +"</div>");*/
-			
-			
-			
-			</script>
-			<div class="row">
-				<script>
-					for (var i = 0; i<= 3; i++){
-						document.write ('<img src="'+products[i].image+'" >');
-					}
-				</script>
+			<div class="row row3">
+				<div class="col-sm-8">
+					<img src="images/product5.png">
+					<img src="images/product6.png">
+				
+					<img src="images/product7.png">
+				
+					<img src="images/product8.png">
+				</div>
+				<div class="col-sm-4" id="mytext2">
+					<span style="background-color: #747B9E;"><h4>Springfield Audio Company appreciates our many repeat customers!</h4><p>Whether you place your orders on line, call our customer service staff, or walk in our door, we express a big THANK THANK YOU!</p></span>
+				</div>
 			</div>
-			<div class="row">
-				<script>
-					for (var i = 4; i<= 7; i++){
-						document.write ('<img src="'+products[i].image+'" >');
-					}
-				</script>
+			<div class="row row4">
+				<div class="col-sm-12" id="footertext">
+					<p>National Audio Company has the largest facility in the United States for cassette tape manufacture. We serve customers Worldwide with 
+						audio services and the distribution of blank and duplicated audio media of many kinds.</p>
+				</div>
+				<div class="col-sm-3">
+					<h5>Products</h5>
+					<p>Audio Cassettes</p>
+					<p>Audio Cassette Packaging</p>
+					<p>Digital Media-CD/DVD/BLU-Ray</p>
+					<p>Digital Media Packaging</p>
+					<p>Duplication Equipment</p>
+					<p>Specials</p>
+				</div>
+				<div class="col-sm-3">
+					<h5>Services</h5>
+					<p>Cassette Manufacture</p>
+					<p>Cassette Duplication</p>
+					<p>Audio Engineering</p>
+					<p>Digital Media Duplication</p>
+					<p>Audio engineering</p>
+				</div>
+				<div class="col-sm-3">
+					<h5>Account</h5>
+					<p>My Account</p>
+					<p>My Cart</p>
+					<p>Registration &amp; Log-In</p>
+				</div>
+				<div class="col-sm-3">
+					<h5>News, Contact &amp; Info</h5>
+					<p>SAC History &amp; Info</p>
+					<p>Contacts</p>
+					<p>News</p>
+				</div>
+			</div>
+			<div class="row myFooter">
+				<div class="col-sm-12">
+					<footer>
+						<h5>&copy; 2017 Springfield Audio Company</h5>
+					</footer>
+				</div>
 			</div>
 		</div><!--End main body container-->
 
-	<!-- Optional JavaScript -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	</body>
 </html>
